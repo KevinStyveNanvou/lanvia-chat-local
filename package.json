@@ -1,0 +1,12 @@
+{
+  "name": "lanvia",
+  "private": true,
+  "version": "1.0.1",
+  "scripts": {
+    "protocol:generate": "node scripts/generate-protocol.mjs",
+    "desktop:install": "npm --prefix desktop install",
+    "desktop:dev": "npm --prefix desktop run dev",
+    "desktop:test": "npm --prefix desktop test",
+    "desktop:build": "npm --prefix desktop run build"
+  }
+}

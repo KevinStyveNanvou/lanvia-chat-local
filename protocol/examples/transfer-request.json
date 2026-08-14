@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "type": "transfer_request",
+  "requestId": "7683c984-b2e9-45e0-a0a2-63e81d06147f",
+  "senderId": "dd39b0d6-9af8-47ca-bf6f-cef126260bde",
+  "receiverId": "ef098f4f-aec0-4412-bd1a-0bdb8219108e",
+  "timestamp": 1786723200000,
+  "payload": {
+    "transferId": "6ae48a8b-098f-4852-a501-8ea2a75ad43e",
+    "fileName": "video.mp4",
+    "mimeType": "video/mp4",
+    "size": 125000000,
+    "sha256": "d2a6c53fe9d84b369617db907f289a11ca503aa45decdfe82e9561de335e42e8",
+    "transferPort": 53212,
+    "transferToken": "dGhpcy1pcy1hbi1leGFtcGxlLWNhcGFiaWxpdHk",
+    "expiresAt": 1786723320000
+  }
+}

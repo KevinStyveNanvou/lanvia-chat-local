@@ -1,0 +1,27 @@
+# Desktop
+node_modules/
+
+*.log
+
+# Flutter / Android
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+build/
+android/.gradle/
+android/local.properties
+*.jks
+key.properties
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Received test files
+*.lanvia.part
+desktop/release/win-unpacked/
+mobile/android/.gradle/

@@ -1,0 +1,16 @@
+{
+  "lanvia": true,
+  "version": 1,
+  "type": "device_hello",
+  "identity": {
+    "deviceId": "dd39b0d6-9af8-47ca-bf6f-cef126260bde",
+    "deviceName": "Kevin-PC",
+    "deviceType": "desktop",
+    "platform": "windows",
+    "appVersion": "1.0.0",
+    "protocolVersion": "1"
+  },
+  "controlPort": 53211,
+  "transferPort": 53212,
+  "timestamp": 1786723200000
+}

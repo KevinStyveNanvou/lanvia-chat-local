@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "type": "message_send",
+  "requestId": "a65db7c0-82d2-44c1-bd5b-b88e72abdd32",
+  "senderId": "dd39b0d6-9af8-47ca-bf6f-cef126260bde",
+  "receiverId": "ef098f4f-aec0-4412-bd1a-0bdb8219108e",
+  "timestamp": 1786723200000,
+  "payload": {
+    "id": "e820bf9b-554d-4a15-a788-b903aff716c0",
+    "conversationId": "dd39b0d6-9af8-47ca-bf6f-cef126260bde:ef098f4f-aec0-4412-bd1a-0bdb8219108e",
+    "senderId": "dd39b0d6-9af8-47ca-bf6f-cef126260bde",
+    "receiverId": "ef098f4f-aec0-4412-bd1a-0bdb8219108e",
+    "text": "Hello from LANVIA",
+    "timestamp": 1786723200000,
+    "status": "sent"
+  }
+}

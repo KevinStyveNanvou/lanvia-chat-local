@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "LANVIA",
+  "protocolVersion": 1,
+  "serviceType": "_lanvia._tcp",
+  "paths": {
+    "control": "/v1/control",
+    "transfer": "/v1/transfers/{transferId}"
+  },
+  "ports": {
+    "control": 53211,
+    "transfer": 53212,
+    "discovery": 53213
+  },
+  "limits": {
+    "udpPacketBytes": 16384,
+    "webSocketMessageBytes": 1048576,
+    "textMessageBytes": 65536,
+    "fileBytes": 1099511627776,
+    "concurrentTransfers": 3,
+    "requestsPerMinute": 600,
+    "transferPortFallbackAttempts": 20
+  },
+  "intervalsMs": {
+    "discoveryAnnouncement": 5000,
+    "peerExpiry": 15000,
+    "ping": 15000,
+    "networkCheck": 5000,
+    "progressNotification": 500
+  },
+  "timeoutsMs": {
+    "webSocketConnect": 5000,
+    "webSocketHandshake": 5000,
+    "request": 10000,
+    "pairing": 60000,
+    "transferDecision": 120000,
+    "httpIdle": 30000,
+    "pong": 10000
+  },
+  "reconnectBackoffMs": [1000, 2000, 4000, 8000, 16000],
+  "messageTypes": [
+    "device_hello",
+    "device_info",
+    "pair_request",
+    "pair_accept",
+    "pair_reject",
+    "message_send",
+    "message_ack",
+    "transfer_request",
+    "transfer_accept",
+    "transfer_reject",
+    "transfer_progress",
+    "transfer_pause",
+    "transfer_resume",
+    "transfer_cancel",
+    "transfer_complete",
+    "transfer_error",
+    "ping",
+    "pong"
+  ],
+  "deviceTypes": ["desktop", "mobile"],
+  "platforms": ["windows", "macos", "linux", "android"],
+  "messageStatuses": ["sending", "sent", "delivered", "failed"],
+  "transferStates": [
+    "hashing",
+    "pending",
+    "accepted",
+    "transferring",
+    "paused",
+    "verifying",
+    "completed",
+    "rejected",
+    "cancelled",
+    "failed"
+  ],
+  "errorCodes": [
+    "invalid_envelope",
+    "unsupported_version",
+    "unauthorized",
+    "not_paired",
+    "not_found",
+    "invalid_request",
+    "port_unavailable",
+    "timeout",
+    "offline",
+    "permission_denied",
+    "file_not_found",
+    "file_too_large",
+    "hash_mismatch",
+    "network_changed",
+    "connection_refused",
+    "cancelled",
+    "internal_error"
+  ]
+}

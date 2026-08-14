@@ -1,0 +1,23 @@
+directories:
+  output: release
+  buildResources: build
+appId: ai.arena.lanvia
+productName: LANVIA
+artifactName: LANVIA-Setup-${version}.${ext}
+files:
+  - filter:
+      - out/**/*
+      - package.json
+extraResources:
+  - from: resources/icon.png
+    to: icon.png
+win:
+  icon: resources/icon.ico
+  target:
+    - nsis
+  requestedExecutionLevel: asInvoker
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+  deleteAppDataOnUninstall: false
+electronVersion: 33.4.11
