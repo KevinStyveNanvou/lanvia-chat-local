@@ -7,8 +7,8 @@
 
 Le projet contient deux applications :
 
-* **Application mobile Android** : située dans le dossier `mobile/build/app/outputs/flutter-apk/app-release.apk`
-* **Application Desktop Windows** : située dans le dossier `desktop/release/LANVIA-Setup-1.0.1.exe`
+* **Application mobile Android** : située dans le dossier `LANVIA-app-release-android-10-or-more.apk`
+* **Application Desktop Windows** : située dans le dossier `LANVIA-Setup.exe`
 
 Les versions compilées sont également disponibles dans les releases du projet lorsqu'elles sont publiées.
 
