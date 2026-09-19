@@ -1,6 +1,5 @@
 ## Utilisation
 
-> **LANVIA a été développé à 100 % avec l'assistance d'une intelligence artificielle (IA).**
 > Le projet est fourni avec une application Desktop pour Windows et une application mobile pour Android, implémentant le même protocole de communication local.
 
 ### Applications
